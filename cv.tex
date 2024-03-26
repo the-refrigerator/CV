@@ -1,0 +1,96 @@
+\documentclass[11pt]{scrartcl}
+
+\usepackage{fontspec}
+\usepackage{fontawesome}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{stix2}
+\usepackage{titlesec}
+\usepackage[
+pdfauthor={Ahmad Abu Zainab},
+pdftitle={Resume},
+pdfsubject={Resume},
+pdfkeywords={Resume, Ahmad Abu Zainab},
+pdfproducer={XeLaTeX with hyperref},
+pdfcreator={XeLaTeX}
+]{hyperref}
+
+\titleformat{\section}
+{\normalfont\bfseries
+\uppercase}{\thesection}{1em}{}
+
+\newcommand{\fake}[1]{\leavevmode\hphantom{#1}}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+% CV
+\begin{center}
+	\textbf{\Large{Ahmad Abu Zainab}}\\
+	Backend Engineer | Data Analyst\\
+	\href{mailto:ahd7.abuzainab@gmail.com}{ahd7.abuzainab@gmail.com} | \href{tel:+96170577734}{+961 70 577734} | \href{https://www.linkedin.com/in/ahmad-abu-zainab-08892826b/}{LinkedIn}
+
+\end{center}
+
+\section*{Professional Summary}
+
+\begin{tcolorbox}
+	Ambitious engineering student with a passion for computer science and data analysis.
+	Some experience in backend development using Django and Flask, with \href{https://github.com/the-refrigerator/ULFG-Notes}{proven ability} to professionally produce technical documentation.
+	Quick learner and team player with excellent communication skills with a string attention to detail.
+	Looking to leverage my skills to contribute to a large team and learn from experienced professionals.
+\end{tcolorbox}
+
+\tcbset{colback=white,colframe=gray!75!white}
+
+\section*{Education}
+
+\begin{itemize}
+	\item \textbf{Bachelor of Electrical Engineering} at \emph{Lebanese University} \hfill (2021 - 2026)
+	\item \textbf{Bachelor of Computer Science} at \emph{Lebanese University} \hfill (2023 - 2025)
+\end{itemize}
+
+\section*{Experience}
+
+\begin{itemize}
+	\item \textbf{Contract Django Developer} at \emph{The Lebanese Pilot Association} \hfill (July 2023 - March 2024)
+	      \begin{tcolorbox}[leftrule=1mm,toprule=-0.5mm,bottomrule=-0.5mm, rightrule=-0.5mm, left=1mm,sharp corners]
+		      \begin{itemize}[leftmargin=5mm]
+			      \item Developed a data management system using Django to store and retrieve data efficiently.
+			      \item Automated data processing tasks using Python scripts, reducing manual work by 50\%, including regular data backups and emails.
+			      \item Collaborated with the frontend team to integrate the backend APIs with the frontend application.
+		      \end{itemize}
+	      \end{tcolorbox}
+	\item \textbf{Backend Developer} at \emph{Hyena Squad} \hfill (October 2022 - January 2023)
+	      \begin{tcolorbox}[leftrule=1mm,toprule=-0.5mm,bottomrule=-0.5mm, rightrule=-0.5mm, left=1mm,sharp corners]
+		      \begin{itemize}[leftmargin=5mm]
+			      \item Developed backend for website using Django
+			      \item Setup basic CI/CD using GitHub
+			      \item Website available at \url{https://hynsqd.com/}
+		      \end{itemize}
+	      \end{tcolorbox}
+\end{itemize}
+
+\section*{Skills}
+
+\begin{itemize}[itemsep=0.5mm]
+	\item \textbf{Programming Languages:} Python, C, C++, Java, Go
+	\item \textbf{Web Development:} Django, Flask, RESTful APIs
+	\item \textbf{Data Analysis:} Pandas, NumPy, Matplotlib/Seaborn
+	\item \textbf{Databases:} PostgreSQL, MySQL, MongoDB
+	\item \textbf{Tools:} Git, Docker, Insomnia
+	\item \textbf{Professional Document Typsesetting:} \LaTeX, Ti\textit{k}z
+\end{itemize}
+
+\section*{Awards/Certifications}
+
+\begin{itemize}
+	\item National Finalist at the \emph{NASA Space Apps Challenge 2024} as part of \href{https://www.spaceappschallenge.org/2023/find-a-team/aleph/?tab=project}{Team Aleph}
+	\item CCNAv7 Introduction to Networks (ITN) Certification
+	\item Scout for 7 years.
+\end{itemize}
+
+\end{document}
